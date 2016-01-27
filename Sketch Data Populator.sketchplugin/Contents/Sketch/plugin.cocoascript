@@ -701,7 +701,7 @@ function populate(data, selectedLayers, opt) {
 			var fill = [[[shapeGroup style] fills] firstObject];
 
 			//disable fill
-						fill.setIsEnabled(false);
+			fill.setIsEnabled(false);
 
 			return;
 		}
@@ -714,6 +714,7 @@ function populate(data, selectedLayers, opt) {
 		var fileManager = [NSFileManager defaultManager];
 		if ([fileManager fileExistsAtPath: fullImageUrl]) {
 			var image = [[NSImage alloc] initWithContentsOfFile: fullImageUrl];
+			var imageData = [[MSImageData alloc] initWithImage: image convertColorSpace: false]];
 
 			//get shape group fill
 			var fill = [[[shapeGroup style] fills] firstObject];
@@ -722,12 +723,13 @@ function populate(data, selectedLayers, opt) {
 			fill.setIsEnabled(true);
 
 			//set pattern fill
-						fill.setFillType(4);
-
-						//set image as pattern fill
-						var imageCollection = fill.documentData().images();
-						[fill setPatternImage: image collection: imageCollection];
-						fill.setPatternFillType(1);
+			fill.setFillType(4);
+			
+			//set image as pattern fill
+			var imageCollection = fill.documentData().images();
+			
+			[fill setImage: imageData];
+			fill.setPatternFillType(1);
 		}
 
 		// Regular expression to match URL images
@@ -820,8 +822,8 @@ function populate(data, selectedLayers, opt) {
 			container.setName('__IMPORTED_SVG__');
 
 			//import svg into the container
-			[MSImportInsert importFromURL: fileUrl inGroup: container importer: SVGImporter completion: nil];
-
+			[MSDocumentImporter importFromURL: fileUrl inGroup: container importer: SVGImporter];
+			
 			//continue after delay to make sure import is complete
 			Library.delay(function() {
 				attemptImport();
@@ -882,9 +884,6 @@ function populate(data, selectedLayers, opt) {
 					placeholderSubLayers.forEach(function(placeholderSubLayer) {
 						placeholderSubLayer.removeFromParent();
 					});
-
-					//resize
-					[shapeGroup resizeRoot: true];
 
 					//get imported icon size
 					var iconFrame = {
@@ -1143,9 +1142,6 @@ function createGrid(selectedLayers, opt) {
 			copy.frame().setY(y);
 		}
 	}
-
-	//adjust parent layer
-	[layerParent resizeRoot: true];
 
 	return newSelectedLayers;
 }
@@ -1468,9 +1464,9 @@ function insertSVGHandler(_context) {
 				container.setName('__IMPORTED_SVG__');
 
 				//import svg into the container
-				[MSImportInsert importFromURL: fileUrl inGroup: container importer: SVGImporter completion: nil];
+				[MSDocumentImporter importFromURL: fileUrl inGroup: container importer: SVGImporter];
 
-		//continue after delay to make sure import is complete
+				//continue after delay to make sure import is complete
 				Library.delay(function() {
 					attemptImport();
 				}, 0.01);
@@ -1530,9 +1526,6 @@ function insertSVGHandler(_context) {
 						placeholderSubLayers.forEach(function(placeholderSubLayer) {
 							placeholderSubLayer.removeFromParent();
 						});
-
-						//resize
-						[shapeGroup resizeRoot: true];
 
 						//get imported icon size
 						var iconFrame = {
