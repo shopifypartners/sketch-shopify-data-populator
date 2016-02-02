@@ -1,4 +1,4 @@
-![Sketch Data Populator](sketch-data-populator.png)
+![Sketch Data Populator](sketch-shopify-data-populator.png)
 
 ## Why Data Populator
 
