@@ -1,0 +1,93 @@
+[
+    {
+	    	"id": 1,
+	    	"name": "Ayres Chambray",
+        "description": "Comfortable and practical, our chambray button down is perfect for travel or days spent on the go. The Ayres Chambray has a rich, washed out indigo color suitable to throw on for any event. Made with sustainable soft chambray featuring two chest pockets with sturdy and scratch resistant corozo buttons.",
+        "price": "$99.99",
+        "image": "assets/apparel_001.jpeg",
+        "thumbnail_001": "assets/apparel_001.jpeg",
+        "thumbnail_002": "assets/apparel_001_thumb.jpeg"
+    },
+    {
+	    	"id": 2,
+	    	"name": "Duckworth Woolfill",
+        "description": "Inspired by the timeless, functional style of your grandfather's work coat, the Foraker features brass buttons and 4 patch pockets. Crafted in Bristol, Tennessee, our 10oz organic duck canvas is light enough for an early summer morning, but rugged enough to handle your days work.",
+        "price": "$219.99",
+        "image": "assets/apparel_002.jpeg",
+        "thumbnail_001": "assets/apparel_002.jpeg",
+        "thumbnail_002": "assets/apparel_002_thumb.jpeg",
+        "thumbnail_003": "assets/apparel_002_thumb2.jpeg"
+    },
+    {
+	    	"id": 3,
+	    	"name": "Whitney Pullover",
+        "description": "Buttons are fussy. Sometimes you just want to roll out of bed, put on the pull over and get to the days work.",
+        "price": "$139.99",
+        "image": "assets/apparel_003.jpeg",
+        "thumbnail_001": "assets/apparel_003.jpeg",
+        "thumbnail_002": "assets/apparel_003_thumb.jpeg",
+        "thumbnail_003": "assets/apparel_003_thumb2.jpeg"
+    },
+    {
+	    	"id": 4,
+	    	"name": "Moon Cycle",
+        "description": "100% Organic Cotton, Stone Washed Slub Knit, 6 oz Jersey Fabric, Made in California",
+        "price": "$36.99",
+        "image": "assets/apparel_004.jpeg",
+        "thumbnail_001": "assets/apparel_004.jpeg"
+    },
+    {
+	    	"id": 5,
+	    	"name": "5 Panel Camp Cap",
+        "description": "A classic 5 panel hat with our United By Blue logo on the front and an adjustable strap to keep fit and secure. Made with recycled polyester and organic cotton mix.",
+        "price": "$24.99",
+        "image": "assets/apparel_005.jpeg",
+        "thumbnail_001": "assets/apparel_005.jpeg",
+        "thumbnail_002": "assets/apparel_005_thumb.jpeg"
+    },
+    {
+	    	"id": 6,
+	    	"name": "Cydney Plaid",
+        "description": "Super soft, super responsible - our wovens were made to last. Short sleeve, Made of 100% Organic Cotton Plaid, 4 oz, Made in USA",
+        "price": "$98.99",
+        "image": "assets/apparel_006.jpeg",
+        "thumbnail_001": "assets/apparel_006.jpeg",
+        "thumbnail_002": "assets/apparel_006_thumb.jpeg",
+        "thumbnail_003": "assets/apparel_006_thumb2.jpeg"
+    },
+    {
+	    	"id": 7,
+	    	"name": "Guaranteed Tee",
+        "description": "100% organic cotton, stone washed slub knit 6 oz jersey fabric, Made in California",
+        "price": "$36.99",
+        "image": "assets/apparel_007.jpeg",
+        "thumbnail_001": "assets/apparel_007.jpeg"
+    },
+    {
+	    	"id": 8,
+	    	"name": "Gertrude Cardigan",
+        "description": "There’s a certain type of Cardigan that’s common in the old quays of Dublin and the wind battered coasts throughout Britain. We’ve brought this old world flare across the pond.",
+        "price": "$108.99",
+        "image": "assets/apparel_008.jpeg",
+        "thumbnail_001": "assets/apparel_008.jpeg",
+        "thumbnail_002": "assets/apparel_008_thumb.jpeg"
+    },
+    {
+	    	"id": 9,
+	    	"name": "Provincial plaid",
+        "description": "Soft, yet durable. Crafted with organic cotton, this relaxed plaid button down is versatile to wear any day or night as the seasons start to change. Long sleeve button down features two chest pockets and adjustable, banded button cuffs.",
+        "price": "$78.99",
+        "image": "assets/apparel_009.jpeg",
+        "thumbnail_001": "assets/apparel_009.jpeg",
+        "thumbnail_002": "assets/apparel_009_thumb.jpeg"
+    },
+    {
+	    	"id": 10,
+	    	"name": "Raglan colorblock",
+        "description": "Casual and friendly with a pullover style. Extremely soft and practical to throw for a relaxing afternoon as the weather gets cooler. Designed with three-quarter length sleeves and falls right at the knees.",
+        "price": "$84.99",
+        "image": "assets/apparel_010.jpeg",
+        "thumbnail_001": "assets/apparel_010.jpeg",
+        "thumbnail_002": "assets/apparel_010_thumb.jpeg"
+    }
+]
