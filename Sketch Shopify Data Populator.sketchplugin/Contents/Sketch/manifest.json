@@ -1,10 +1,10 @@
 {
-    "name": "Sketch Data Populator",
+    "name": "Sketch Shopify Data Populator",
     "description": "Say goodbye to Lorem Ipsum: populate your Sketch documents with meaningful data.",
-    "author" : "precious design studio",
-    "authorEmail" : "info@precious-forever.com",
-    "homepage": "https://github.com/preciousforever/sketch-data-populator",
-    "identifier": "com.precious-forever.sketch.datapopulator",
+    "author" : "precious design studio + Shopify",
+    "authorEmail" : "levin.mejia@shopify.com",
+    "homepage": "https://github.com/levinmejia/sketch-shopify-data-populator",
+    "identifier": "com.precious-forever.sketch.shopifydatapopulator",
     "compatibleVersion": "3.5.1",
     "version": "1.5.1",
     "commands": [{
