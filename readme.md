@@ -1,4 +1,4 @@
-# [Working with Realistic Data in Sketch Using JSON](https://www.shopify.ca/partners/blog/91010886-3-easy-steps-for-working-with-realistic-data-in-sketch-using-json)
+# [Working with Realistic Data in Sketch Using JSON](https://www.shopify.com/partners/blog/what-is-progressive-enhancement-and-why-should-you-care?utm_source=Partner%20Education&utm_medium=BL&utm_campaign=Github&utm_content=Working%20with%20Realistic%20Data%20in%20Sketch%20Using%20JSON)
 
 
 ![Sketch Data Populator](sketch-shopify-data-populator.png)
