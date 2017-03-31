@@ -1,3 +1,6 @@
+# [Working with Realistic Data in Sketch Using JSON](https://www.shopify.ca/partners/blog/91010886-3-easy-steps-for-working-with-realistic-data-in-sketch-using-json)
+
+
 ![Sketch Data Populator](sketch-shopify-data-populator.png)
 
 ## Credits
